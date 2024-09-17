@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Snake.exe" version="1.0.0.0" publicKeyToken="d952e3babed4c97a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Snake" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Snake.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Snake.exe" size="276440">
+      <assemblyIdentity name="Snake" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wUN86ytYmtowBp7OD9xPiVlZbdvtaRs4xdHbnV3i5Eg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Snake.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KHUSH\syed khushnood" issuerKeyHash="b29a6d44f13f173dacc38c6fff5e16db957c7d6d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xKJsV5SGhCXdB8W6A+JMfD3iE0i42qTXz/Rbj5nhD1w=</DigestValue></Reference></SignedInfo><SignatureValue>DN8SXbMVLhHNbQHWiwHGh8mbygUSx82fTRbwfUjpW8UnvG/36444wDAwOT6pOq6FCKZRJp5ArjjgQ+pruzm3nw1u7qf3hapY0AW697XhbeJBFpdpL6yHi9ZLjbJVlN6zxco0cQBfaMzo+vtFeCVMkX782Br5FYJC55roWY+ljVM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0dvCah1Tx+7NhCrZqcq7BezQi396Kg4/oWf9bWyYY6dXMfohHOpiq1RQfPZvA2/rtVKnmTPTnrKA/lGXilbi5zv0QEfZp5vHUeAZ8M3sWuUJYykrW9TPKW79FPWjGYJwjFHujtgukdqi1Kxpjd/jdXdt5C0qRfU6vOS4jWGTsE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5c0fe1998f5bf4cfd7a4dab84813e23d7c4ce203bac507dd25848694576ca2c4" Description="" Url=""><as:assemblyIdentity name="Snake.exe" version="1.0.0.0" publicKeyToken="d952e3babed4c97a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KHUSH\syed khushnood</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CQ5MCRHEdqou2mro5082ztsSWjtrcXfXFNH3Q+bOCpQ=</DigestValue></Reference></SignedInfo><SignatureValue>CJK5hyCDCE4ZCXNA/UNIOOP2XN3fEu9OaWMYvnnX/5+Ubw/3c6JApysPb0CcDxRBcsi+oz4PwjCFiWlfEJVIlnwNGI7Tq3H/jz8y4FXhxepxXHzLQWvjYMf/jdRwDIWDxgrvMQOrMt7dgbUVndRG8dvVeqJbvhRBXn1ph31nPsQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0dvCah1Tx+7NhCrZqcq7BezQi396Kg4/oWf9bWyYY6dXMfohHOpiq1RQfPZvA2/rtVKnmTPTnrKA/lGXilbi5zv0QEfZp5vHUeAZ8M3sWuUJYykrW9TPKW79FPWjGYJwjFHujtgukdqi1Kxpjd/jdXdt5C0qRfU6vOS4jWGTsE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQeVTtWfCCHpVM6ERRiYWRVTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASwBIAFUAUwBIAFwAcwB5AGUAZAAgAGsAaAB1AHMAaABuAG8AbwBkMB4XDTI0MDkxNzEwMzQwNVoXDTI1MDkxNzE2MzQwNVowMzExMC8GA1UEAx4oAEsASABVAFMASABcAHMAeQBlAGQAIABrAGgAdQBzAGgAbgBvAG8AZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0dvCah1Tx+7NhCrZqcq7BezQi396Kg4/oWf9bWyYY6dXMfohHOpiq1RQfPZvA2/rtVKnmTPTnrKA/lGXilbi5zv0QEfZp5vHUeAZ8M3sWuUJYykrW9TPKW79FPWjGYJwjFHujtgukdqi1Kxpjd/jdXdt5C0qRfU6vOS4jWGTsE0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCNHvTAeJ98Y8dUqMt/X9BFm831cumTOQHd6tKGHpQMYUtikNGklEqftCDli+EiihzOti0o8hOM7mUU2wfpNBeNIAebAkUIQSD5kWDQRW/mo93p3HBoFDIJxLUwLbbRp7g+Pnr+TXL9SJzpQkue5bmwx1Pyb6HrY4A9jrLvFUtiWw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
